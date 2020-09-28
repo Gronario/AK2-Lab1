@@ -15,6 +15,7 @@ int Calculator::Mul (double a, double b)
     return a * b + 0.5;
 }
 
-void* Calculator:MulSub(double a ,double b){
+void* Calculator::MulSub(double a ,double b)
+{
    return Sub(Mul(a,b),a + b);
 }
